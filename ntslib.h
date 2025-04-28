@@ -8,7 +8,7 @@
 #include <string.h>
 #include <stdint.h>
 #include <stdbool.h>
-#include "ntslib.h"
+#include <termios.h>
 
 extern struct termios tty;
 
@@ -25,6 +25,6 @@ bool isReadResponse(char *message);
 bool isErrorResponse(char *message);
 bool isChecksumCorrect(char *message);
 
-void setupTermios(int);
+int setupTermios(int);
 
 #endif // NTSLIB_H

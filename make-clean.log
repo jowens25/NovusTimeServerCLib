@@ -1,0 +1,1 @@
+rm -f main calculateChecksum.o connect.o isChecksumCorrect.o isErrorResponse.o isReadResponse.o isWriteResponse.o main.o readRegister.o serOpen.o serRead.o serWrite.o setupTermios.o writeRegister.o

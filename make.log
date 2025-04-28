@@ -1,0 +1,14 @@
+gcc -Wall -g -c calculateChecksum.c
+gcc -Wall -g -c connect.c
+gcc -Wall -g -c isChecksumCorrect.c
+gcc -Wall -g -c isErrorResponse.c
+gcc -Wall -g -c isReadResponse.c
+gcc -Wall -g -c isWriteResponse.c
+gcc -Wall -g -c main.c
+gcc -Wall -g -c readRegister.c
+gcc -Wall -g -c serOpen.c
+gcc -Wall -g -c serRead.c
+gcc -Wall -g -c serWrite.c
+gcc -Wall -g -c setupTermios.c
+gcc -Wall -g -c writeRegister.c
+gcc -Wall -g -o main calculateChecksum.o connect.o isChecksumCorrect.o isErrorResponse.o isReadResponse.o isWriteResponse.o main.o readRegister.o serOpen.o serRead.o serWrite.o setupTermios.o writeRegister.o

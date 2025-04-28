@@ -1,7 +1,7 @@
-#include <termios.h>
+#include "ntslib.h"
 struct termios tty;
 
-void setupTermios(int fd)
+int setupTermios(int fd)
 {
 
     memset(&tty, 0, sizeof tty);
@@ -34,4 +34,6 @@ void setupTermios(int fd)
         close(fd);
         return -1;
     }
+
+    return 0;
 }
