@@ -4,8 +4,8 @@
 int main()
 {
     perror("main called");
-    int32_t addr = 0xb0020000;
-    // int32_t tempData = 0x00000001;
+    // int32_t addr = 0xb0020000;
+    //  int32_t tempData = 0x00000001;
     //$RC,0xb0020000*25
     connect();
 

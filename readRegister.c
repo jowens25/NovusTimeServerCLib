@@ -5,9 +5,9 @@ int readRegister(int32_t addr, int32_t *data)
 {
     char writeData[32] = {0};
     char readData[32] = {0};
-    char tempData[32] = {0};
+    // char tempData[32] = {0};
     char hexAddr[32] = {0};
-    char hexData[32] = {0};
+    // char hexData[32] = {0};
     char hexChecksum[3] = {0};
 
     int ser = serOpen("/dev/ttyUSB0");

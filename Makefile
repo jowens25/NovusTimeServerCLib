@@ -15,6 +15,4 @@ $(TARGET): $(OBJECTS)
 clean:
 	rm -f $(TARGET) $(OBJECTS)
 
-# Custom target to build, then clean
-build_and_clean: $(TARGET)
-	$(MAKE) clean
+

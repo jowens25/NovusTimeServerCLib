@@ -11,7 +11,7 @@ bool isChecksumCorrect(char *message)
     char *cmdAddressData = strtok(message, "*");
     char *messageChecksum = strtok(NULL, "*");
 
-    unsigned char hexChecksum[32] = {0};
+    char hexChecksum[32] = {0};
 
     sprintf(hexChecksum, "%x", calculateChecksum(cmdAddressData));
     strcat(hexChecksum, "\r\n"); // add back normal ended for comparison
