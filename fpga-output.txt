@@ -1,0 +1,6506 @@
+INFO: Opening Port:
+INFO: opening port: ttyUSB0 successful
+VERBOSE: no response received
+VERBOSE: received command: $ER,0x00000001*72
+INFO: baudrate detected at: 1000000
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connected correctly to target on: ttyUSB0
+
+INFO: Read Register:
+VERBOSE: sent command: $RC,0x00000000*75
+VERBOSE: received command: $RR,0x00000000,0x00010001*00
+
+INFO: Read Register:
+VERBOSE: sent command: $RC,0x00000004*71
+VERBOSE: received command: $RR,0x00000004,0x00000000*04
+
+INFO: Read Register:
+VERBOSE: sent command: $RC,0x00000008*7d
+VERBOSE: received command: $RR,0x00000008,0x0FFFFFFF*7E
+
+INFO: Read Register:
+VERBOSE: sent command: $RC,0x0000000c*26
+VERBOSE: received command: $RR,0x0000000C,0x00000000*73
+
+INFO: Read Register:
+VERBOSE: sent command: $RC,0x00000010*74
+VERBOSE: received command: $RR,0x00000010,0x00020001*02
+
+INFO: Read Register:
+VERBOSE: sent command: $RC,0x00000014*70
+VERBOSE: received command: $RR,0x00000014,0xB0000000*77
+
+INFO: Read Register:
+VERBOSE: sent command: $RC,0x00000018*7c
+VERBOSE: received command: $RR,0x00000018,0xB000FFFF*7B
+
+INFO: Read Register:
+VERBOSE: sent command: $RC,0x0000001c*27
+VERBOSE: received command: $RR,0x0000001C,0x00000000*72
+
+INFO: Read Register:
+VERBOSE: sent command: $RC,0x00000020*77
+VERBOSE: received command: $RR,0x00000020,0x00090001*0A
+
+INFO: Read Register:
+VERBOSE: sent command: $RC,0x00000024*73
+VERBOSE: received command: $RR,0x00000024,0xB0010000*75
+
+INFO: Read Register:
+VERBOSE: sent command: $RC,0x00000028*7f
+VERBOSE: received command: $RR,0x00000028,0xB001FFFF*79
+
+INFO: Read Register:
+VERBOSE: sent command: $RC,0x0000002c*24
+VERBOSE: received command: $RR,0x0000002C,0x00000000*71
+
+INFO: Read Register:
+VERBOSE: sent command: $RC,0x00000030*76
+VERBOSE: received command: $RR,0x00000030,0x00160001*05
+
+INFO: Read Register:
+VERBOSE: sent command: $RC,0x00000034*72
+VERBOSE: received command: $RR,0x00000034,0xB0020000*77
+
+INFO: Read Register:
+VERBOSE: sent command: $RC,0x00000038*7e
+VERBOSE: received command: $RR,0x00000038,0xB002FFFF*7B
+
+INFO: Read Register:
+VERBOSE: sent command: $RC,0x0000003c*25
+VERBOSE: received command: $RR,0x0000003C,0x00000000*70
+
+INFO: Read Register:
+VERBOSE: sent command: $RC,0x00000040*71
+VERBOSE: received command: $RR,0x00000040,0x00070001*02
+
+INFO: Read Register:
+VERBOSE: sent command: $RC,0x00000044*75
+VERBOSE: received command: $RR,0x00000044,0xB0030000*71
+
+INFO: Read Register:
+VERBOSE: sent command: $RC,0x00000048*79
+VERBOSE: received command: $RR,0x00000048,0xB003FFFF*7D
+
+INFO: Read Register:
+VERBOSE: sent command: $RC,0x0000004c*22
+VERBOSE: received command: $RR,0x0000004C,0x00000000*77
+
+INFO: Read Register:
+VERBOSE: sent command: $RC,0x00000050*70
+VERBOSE: received command: $RR,0x00000050,0x000F0001*72
+
+INFO: Read Register:
+VERBOSE: sent command: $RC,0x00000054*74
+VERBOSE: received command: $RR,0x00000054,0xB0040000*77
+
+INFO: Read Register:
+VERBOSE: sent command: $RC,0x00000058*78
+VERBOSE: received command: $RR,0x00000058,0xB004FFFF*7B
+
+INFO: Read Register:
+VERBOSE: sent command: $RC,0x0000005c*23
+VERBOSE: received command: $RR,0x0000005C,0x00000000*76
+
+INFO: Read Register:
+VERBOSE: sent command: $RC,0x00000060*73
+VERBOSE: received command: $RR,0x00000060,0x00000000*06
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Read Register:
+VERBOSE: sent command: $RC,0xb0020000*25
+VERBOSE: received command: $RR,0xB0020000,0x00000001*71
+
+INFO: Read Register:
+VERBOSE: sent command: $RC,0xb002008c*7e
+VERBOSE: received command: $RR,0xB002008C,0x004C544E*0C
+
+INFO: Read Register:
+VERBOSE: sent command: $RC,0xb0020090*2c
+VERBOSE: received command: $RR,0xB0020090,0x00000000*79
+
+INFO: Read Register:
+VERBOSE: sent command: $RC,0xb0020088*25
+VERBOSE: received command: $RR,0xB0020088,0x00004000*74
+
+INFO: Read Register:
+VERBOSE: sent command: $RC,0xb0020084*29
+VERBOSE: received command: $RR,0xB0020084,0x0104E371*09
+
+INFO: Read Register:
+VERBOSE: sent command: $RC,0xb00200a4*70
+VERBOSE: received command: $RR,0xB00200A4,0x47505320*07
+
+INFO: Read Register:
+VERBOSE: sent command: $RC,0xb0020094*28
+VERBOSE: received command: $RR,0xB0020094,0x1000A8C0*76
+
+INFO: Write Register:
+VERBOSE: sent command: $WC,0xb0020100,0x40000000*41
+VERBOSE: received command: $WR,0xB0020100*10
+
+INFO: Read Register:
+VERBOSE: sent command: $RC,0xb0020100*24
+VERBOSE: received command: $RR,0xB0020100,0x80000000*79
+
+INFO: Read Register:
+VERBOSE: sent command: $RC,0xb0020104*20
+VERBOSE: received command: $RR,0xB0020104,0x00252000*70
+
+INFO: Read Register:
+VERBOSE: sent command: $RC,0xb0020014*20
+VERBOSE: received command: $RR,0xB0020014,0x00000000*75
+
+INFO: Read Register:
+VERBOSE: sent command: $RC,0xb0020018*2c
+VERBOSE: received command: $RR,0xB0020018,0x00000000*79
+
+INFO: Read Register:
+VERBOSE: sent command: $RC,0xb002001c*77
+VERBOSE: received command: $RR,0xB002001C,0x00000000*02
+
+INFO: Read Register:
+VERBOSE: sent command: $RC,0xb0020020*27
+VERBOSE: received command: $RR,0xB0020020,0x00000025*75
+
+INFO: Read Register:
+VERBOSE: sent command: $RC,0xb0020010*24
+VERBOSE: received command: $RR,0xB0020010,0x00000000*71
+
+INFO: Read Register:
+VERBOSE: sent command: $RC,0xb002000c*76
+VERBOSE: received command: $RR,0xB002000C,0x01020001*01
+
+INFO: Write Register:
+VERBOSE: sent command: $WC,0xb002008c,0x004c544e*18
+VERBOSE: received command: $WR,0xB002008C*6A
+
+INFO: Write Register:
+VERBOSE: sent command: $WC,0xb0020090,0x00000000*4d
+VERBOSE: received command: $WR,0xB0020090*18
+
+INFO: Write Register:
+VERBOSE: sent command: $WC,0xb0020080,0x00000004*48
+VERBOSE: received command: $WR,0xB0020080*19
+
+INFO: Write Register:
+VERBOSE: sent command: $WC,0xb0020088,0x00004000*40
+VERBOSE: received command: $WR,0xB0020088*11
+
+INFO: Write Register:
+VERBOSE: sent command: $WC,0xb0020080,0x00000002*4e
+VERBOSE: received command: $WR,0xB0020080*19
+
+INFO: Write Register:
+VERBOSE: sent command: $WC,0xb0020084,0x0104e371*1d
+VERBOSE: received command: $WR,0xB0020084*1D
+
+INFO: Write Register:
+VERBOSE: sent command: $WC,0xb0020080,0x00000001*4d
+VERBOSE: received command: $WR,0xB0020080*19
+
+INFO: Write Register:
+VERBOSE: sent command: $WC,0xb00200a4,0x47505320*13
+VERBOSE: received command: $WR,0xB00200A4*64
+
+INFO: Write Register:
+VERBOSE: sent command: $WC,0xb0020080,0x00000010*4d
+VERBOSE: received command: $WR,0xB0020080*19
+
+INFO: Write Register:
+VERBOSE: sent command: $WC,0xb0020094,0x1000a8c0*42
+VERBOSE: received command: $WR,0xB0020094*1C
+
+INFO: Write Register:
+VERBOSE: sent command: $WC,0xb0020080,0x00000008*44
+VERBOSE: received command: $WR,0xB0020080*19
+
+INFO: Write Register:
+VERBOSE: sent command: $WC,0xb0020104,0x00252000*44
+VERBOSE: received command: $WR,0xB0020104*14
+
+INFO: Write Register:
+VERBOSE: sent command: $WC,0xb0020100,0x00000003*46
+VERBOSE: received command: $WR,0xB0020100*10
+
+INFO: Write Register:
+VERBOSE: sent command: $WC,0xb0020010,0x00000000*45
+VERBOSE: received command: $WR,0xB0020010*10
+
+INFO: Write Register:
+VERBOSE: sent command: $WC,0xb0020000,0x00000001*45
+VERBOSE: received command: $WR,0xB0020000*11
+
+INFO: Read Register:
+VERBOSE: sent command: $RC,0xb0020000*25
+VERBOSE: received command: $RR,0xB0020000,0x00000001*71
+
+INFO: Read Register:
+VERBOSE: sent command: $RC,0xb002008c*7e
+VERBOSE: received command: $RR,0xB002008C,0x004C544E*0C
+
+INFO: Read Register:
+VERBOSE: sent command: $RC,0xb0020090*2c
+VERBOSE: received command: $RR,0xB0020090,0x00000000*79
+
+INFO: Read Register:
+VERBOSE: sent command: $RC,0xb0020088*25
+VERBOSE: received command: $RR,0xB0020088,0x00004000*74
+
+INFO: Read Register:
+VERBOSE: sent command: $RC,0xb0020084*29
+VERBOSE: received command: $RR,0xB0020084,0x0104E371*09
+
+INFO: Read Register:
+VERBOSE: sent command: $RC,0xb00200a4*70
+VERBOSE: received command: $RR,0xB00200A4,0x47505320*07
+
+INFO: Read Register:
+VERBOSE: sent command: $RC,0xb0020094*28
+VERBOSE: received command: $RR,0xB0020094,0x1000A8C0*76
+
+INFO: Write Register:
+VERBOSE: sent command: $WC,0xb0020100,0x40000000*41
+VERBOSE: received command: $WR,0xB0020100*10
+
+INFO: Read Register:
+VERBOSE: sent command: $RC,0xb0020100*24
+VERBOSE: received command: $RR,0xB0020100,0x80000000*79
+
+INFO: Read Register:
+VERBOSE: sent command: $RC,0xb0020104*20
+VERBOSE: received command: $RR,0xB0020104,0x00252000*70
+
+INFO: Read Register:
+VERBOSE: sent command: $RC,0xb0020014*20
+VERBOSE: received command: $RR,0xB0020014,0x00000000*75
+
+INFO: Read Register:
+VERBOSE: sent command: $RC,0xb0020018*2c
+VERBOSE: received command: $RR,0xB0020018,0x00000000*79
+
+INFO: Read Register:
+VERBOSE: sent command: $RC,0xb002001c*77
+VERBOSE: received command: $RR,0xB002001C,0x00000000*02
+
+INFO: Read Register:
+VERBOSE: sent command: $RC,0xb0020020*27
+VERBOSE: received command: $RR,0xB0020020,0x00000025*75
+
+INFO: Read Register:
+VERBOSE: sent command: $RC,0xb0020010*24
+VERBOSE: received command: $RR,0xB0020010,0x00000000*71
+
+INFO: Read Register:
+VERBOSE: sent command: $RC,0xb002000c*76
+VERBOSE: received command: $RR,0xB002000C,0x01020001*01
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Closing Port:
+INFO: closing port successful
+
+INFO: Opening Port:
+INFO: opening port: ttyUSB0 successful
+VERBOSE: no response received
+VERBOSE: received command: $ER,0x00000001*72
+INFO: baudrate detected at: 1000000
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connected correctly to target on: ttyUSB0
+
+INFO: Read Register:
+VERBOSE: sent command: $RC,0x00000000*75
+VERBOSE: received command: $RR,0x00000000,0x00010001*00
+
+INFO: Read Register:
+VERBOSE: sent command: $RC,0x00000004*71
+VERBOSE: received command: $RR,0x00000004,0x00000000*04
+
+INFO: Read Register:
+VERBOSE: sent command: $RC,0x00000008*7d
+VERBOSE: received command: $RR,0x00000008,0x0FFFFFFF*7E
+
+INFO: Read Register:
+VERBOSE: sent command: $RC,0x0000000c*26
+VERBOSE: received command: $RR,0x0000000C,0x00000000*73
+
+INFO: Read Register:
+VERBOSE: sent command: $RC,0x00000010*74
+VERBOSE: received command: $RR,0x00000010,0x00020001*02
+
+INFO: Read Register:
+VERBOSE: sent command: $RC,0x00000014*70
+VERBOSE: received command: $RR,0x00000014,0xB0000000*77
+
+INFO: Read Register:
+VERBOSE: sent command: $RC,0x00000018*7c
+VERBOSE: received command: $RR,0x00000018,0xB000FFFF*7B
+
+INFO: Read Register:
+VERBOSE: sent command: $RC,0x0000001c*27
+VERBOSE: received command: $RR,0x0000001C,0x00000000*72
+
+INFO: Read Register:
+VERBOSE: sent command: $RC,0x00000020*77
+VERBOSE: received command: $RR,0x00000020,0x00090001*0A
+
+INFO: Read Register:
+VERBOSE: sent command: $RC,0x00000024*73
+VERBOSE: received command: $RR,0x00000024,0xB0010000*75
+
+INFO: Read Register:
+VERBOSE: sent command: $RC,0x00000028*7f
+VERBOSE: received command: $RR,0x00000028,0xB001FFFF*79
+
+INFO: Read Register:
+VERBOSE: sent command: $RC,0x0000002c*24
+VERBOSE: received command: $RR,0x0000002C,0x00000000*71
+
+INFO: Read Register:
+VERBOSE: sent command: $RC,0x00000030*76
+VERBOSE: received command: $RR,0x00000030,0x00160001*05
+
+INFO: Read Register:
+VERBOSE: sent command: $RC,0x00000034*72
+VERBOSE: received command: $RR,0x00000034,0xB0020000*77
+
+INFO: Read Register:
+VERBOSE: sent command: $RC,0x00000038*7e
+VERBOSE: received command: $RR,0x00000038,0xB002FFFF*7B
+
+INFO: Read Register:
+VERBOSE: sent command: $RC,0x0000003c*25
+VERBOSE: received command: $RR,0x0000003C,0x00000000*70
+
+INFO: Read Register:
+VERBOSE: sent command: $RC,0x00000040*71
+VERBOSE: received command: $RR,0x00000040,0x00070001*02
+
+INFO: Read Register:
+VERBOSE: sent command: $RC,0x00000044*75
+VERBOSE: received command: $RR,0x00000044,0xB0030000*71
+
+INFO: Read Register:
+VERBOSE: sent command: $RC,0x00000048*79
+VERBOSE: received command: $RR,0x00000048,0xB003FFFF*7D
+
+INFO: Read Register:
+VERBOSE: sent command: $RC,0x0000004c*22
+VERBOSE: received command: $RR,0x0000004C,0x00000000*77
+
+INFO: Read Register:
+VERBOSE: sent command: $RC,0x00000050*70
+VERBOSE: received command: $RR,0x00000050,0x000F0001*72
+
+INFO: Read Register:
+VERBOSE: sent command: $RC,0x00000054*74
+VERBOSE: received command: $RR,0x00000054,0xB0040000*77
+
+INFO: Read Register:
+VERBOSE: sent command: $RC,0x00000058*78
+VERBOSE: received command: $RR,0x00000058,0xB004FFFF*7B
+
+INFO: Read Register:
+VERBOSE: sent command: $RC,0x0000005c*23
+VERBOSE: received command: $RR,0x0000005C,0x00000000*76
+
+INFO: Read Register:
+VERBOSE: sent command: $RC,0x00000060*73
+VERBOSE: received command: $RR,0x00000060,0x00000000*06
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Read Register:
+VERBOSE: sent command: $RC,0xb0020000*25
+VERBOSE: received command: $RR,0xB0020000,0x00000000*70
+
+INFO: Read Register:
+VERBOSE: sent command: $RC,0xb002008c*7e
+VERBOSE: received command: $RR,0xB002008C,0x004C544E*0C
+
+INFO: Read Register:
+VERBOSE: sent command: $RC,0xb0020090*2c
+VERBOSE: received command: $RR,0xB0020090,0x00000000*79
+
+INFO: Read Register:
+VERBOSE: sent command: $RC,0xb0020088*25
+VERBOSE: received command: $RR,0xB0020088,0x00004000*74
+
+INFO: Read Register:
+VERBOSE: sent command: $RC,0xb0020084*29
+VERBOSE: received command: $RR,0xB0020084,0x0104E371*09
+
+INFO: Read Register:
+VERBOSE: sent command: $RC,0xb00200a4*70
+VERBOSE: received command: $RR,0xB00200A4,0x00000000*05
+
+INFO: Read Register:
+VERBOSE: sent command: $RC,0xb0020094*28
+VERBOSE: received command: $RR,0xB0020094,0x1000A8C0*76
+
+INFO: Write Register:
+VERBOSE: sent command: $WC,0xb0020100,0x40000000*41
+VERBOSE: received command: $WR,0xB0020100*10
+
+INFO: Read Register:
+VERBOSE: sent command: $RC,0xb0020100*24
+VERBOSE: received command: $RR,0xB0020100,0x80000000*79
+
+INFO: Read Register:
+VERBOSE: sent command: $RC,0xb0020104*20
+VERBOSE: received command: $RR,0xB0020104,0x00252000*70
+
+INFO: Read Register:
+VERBOSE: sent command: $RC,0xb0020014*20
+VERBOSE: received command: $RR,0xB0020014,0x00000000*75
+
+INFO: Read Register:
+VERBOSE: sent command: $RC,0xb0020018*2c
+VERBOSE: received command: $RR,0xB0020018,0x00000000*79
+
+INFO: Read Register:
+VERBOSE: sent command: $RC,0xb002001c*77
+VERBOSE: received command: $RR,0xB002001C,0x00000000*02
+
+INFO: Read Register:
+VERBOSE: sent command: $RC,0xb0020020*27
+VERBOSE: received command: $RR,0xB0020020,0x00000078*7D
+
+INFO: Read Register:
+VERBOSE: sent command: $RC,0xb0020010*24
+VERBOSE: received command: $RR,0xB0020010,0x00000000*71
+
+INFO: Read Register:
+VERBOSE: sent command: $RC,0xb002000c*76
+VERBOSE: received command: $RR,0xB002000C,0x01020001*01
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Closing Port:
+INFO: closing port successful
+
+INFO: Opening Port:
+INFO: opening port: ttyUSB0 successful
+VERBOSE: no response received
+VERBOSE: received command: $ER,0x00000001*72
+INFO: baudrate detected at: 1000000
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connected correctly to target on: ttyUSB0
+
+INFO: Read Register:
+VERBOSE: sent command: $RC,0x00000000*75
+VERBOSE: received command: $RR,0x00000000,0x00010001*00
+
+INFO: Read Register:
+VERBOSE: sent command: $RC,0x00000004*71
+VERBOSE: received command: $RR,0x00000004,0x00000000*04
+
+INFO: Read Register:
+VERBOSE: sent command: $RC,0x00000008*7d
+VERBOSE: received command: $RR,0x00000008,0x0FFFFFFF*7E
+
+INFO: Read Register:
+VERBOSE: sent command: $RC,0x0000000c*26
+VERBOSE: received command: $RR,0x0000000C,0x00000000*73
+
+INFO: Read Register:
+VERBOSE: sent command: $RC,0x00000010*74
+VERBOSE: received command: $RR,0x00000010,0x00020001*02
+
+INFO: Read Register:
+VERBOSE: sent command: $RC,0x00000014*70
+VERBOSE: received command: $RR,0x00000014,0xB0000000*77
+
+INFO: Read Register:
+VERBOSE: sent command: $RC,0x00000018*7c
+VERBOSE: received command: $RR,0x00000018,0xB000FFFF*7B
+
+INFO: Read Register:
+VERBOSE: sent command: $RC,0x0000001c*27
+VERBOSE: received command: $RR,0x0000001C,0x00000000*72
+
+INFO: Read Register:
+VERBOSE: sent command: $RC,0x00000020*77
+VERBOSE: received command: $RR,0x00000020,0x00090001*0A
+
+INFO: Read Register:
+VERBOSE: sent command: $RC,0x00000024*73
+VERBOSE: received command: $RR,0x00000024,0xB0010000*75
+
+INFO: Read Register:
+VERBOSE: sent command: $RC,0x00000028*7f
+VERBOSE: received command: $RR,0x00000028,0xB001FFFF*79
+
+INFO: Read Register:
+VERBOSE: sent command: $RC,0x0000002c*24
+VERBOSE: received command: $RR,0x0000002C,0x00000000*71
+
+INFO: Read Register:
+VERBOSE: sent command: $RC,0x00000030*76
+VERBOSE: received command: $RR,0x00000030,0x00160001*05
+
+INFO: Read Register:
+VERBOSE: sent command: $RC,0x00000034*72
+VERBOSE: received command: $RR,0x00000034,0xB0020000*77
+
+INFO: Read Register:
+VERBOSE: sent command: $RC,0x00000038*7e
+VERBOSE: received command: $RR,0x00000038,0xB002FFFF*7B
+
+INFO: Read Register:
+VERBOSE: sent command: $RC,0x0000003c*25
+VERBOSE: received command: $RR,0x0000003C,0x00000000*70
+
+INFO: Read Register:
+VERBOSE: sent command: $RC,0x00000040*71
+VERBOSE: received command: $RR,0x00000040,0x00070001*02
+
+INFO: Read Register:
+VERBOSE: sent command: $RC,0x00000044*75
+VERBOSE: received command: $RR,0x00000044,0xB0030000*71
+
+INFO: Read Register:
+VERBOSE: sent command: $RC,0x00000048*79
+VERBOSE: received command: $RR,0x00000048,0xB003FFFF*7D
+
+INFO: Read Register:
+VERBOSE: sent command: $RC,0x0000004c*22
+VERBOSE: received command: $RR,0x0000004C,0x00000000*77
+
+INFO: Read Register:
+VERBOSE: sent command: $RC,0x00000050*70
+VERBOSE: received command: $RR,0x00000050,0x000F0001*72
+
+INFO: Read Register:
+VERBOSE: sent command: $RC,0x00000054*74
+VERBOSE: received command: $RR,0x00000054,0xB0040000*77
+
+INFO: Read Register:
+VERBOSE: sent command: $RC,0x00000058*78
+VERBOSE: received command: $RR,0x00000058,0xB004FFFF*7B
+
+INFO: Read Register:
+VERBOSE: sent command: $RC,0x0000005c*23
+VERBOSE: received command: $RR,0x0000005C,0x00000000*76
+
+INFO: Read Register:
+VERBOSE: sent command: $RC,0x00000060*73
+VERBOSE: received command: $RR,0x00000060,0x00000000*06
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Read Register:
+VERBOSE: sent command: $RC,0xb0020000*25
+VERBOSE: received command: $RR,0xB0020000,0x00000000*70
+
+INFO: Read Register:
+VERBOSE: sent command: $RC,0xb002008c*7e
+VERBOSE: received command: $RR,0xB002008C,0x004C544E*0C
+
+INFO: Read Register:
+VERBOSE: sent command: $RC,0xb0020090*2c
+VERBOSE: received command: $RR,0xB0020090,0x00000000*79
+
+INFO: Read Register:
+VERBOSE: sent command: $RC,0xb0020088*25
+VERBOSE: received command: $RR,0xB0020088,0x00004000*74
+
+INFO: Read Register:
+VERBOSE: sent command: $RC,0xb0020084*29
+VERBOSE: received command: $RR,0xB0020084,0x0104E371*09
+
+INFO: Read Register:
+VERBOSE: sent command: $RC,0xb00200a4*70
+VERBOSE: received command: $RR,0xB00200A4,0x47505320*07
+
+INFO: Read Register:
+VERBOSE: sent command: $RC,0xb0020094*28
+VERBOSE: received command: $RR,0xB0020094,0x1000A8C0*76
+
+INFO: Write Register:
+VERBOSE: sent command: $WC,0xb0020100,0x40000000*41
+VERBOSE: received command: $WR,0xB0020100*10
+
+INFO: Read Register:
+VERBOSE: sent command: $RC,0xb0020100*24
+VERBOSE: received command: $RR,0xB0020100,0x80000000*79
+
+INFO: Read Register:
+VERBOSE: sent command: $RC,0xb0020104*20
+VERBOSE: received command: $RR,0xB0020104,0x00252000*70
+
+INFO: Read Register:
+VERBOSE: sent command: $RC,0xb0020014*20
+VERBOSE: received command: $RR,0xB0020014,0x00000000*75
+
+INFO: Read Register:
+VERBOSE: sent command: $RC,0xb0020018*2c
+VERBOSE: received command: $RR,0xB0020018,0x00000000*79
+
+INFO: Read Register:
+VERBOSE: sent command: $RC,0xb002001c*77
+VERBOSE: received command: $RR,0xB002001C,0x00000000*02
+
+INFO: Read Register:
+VERBOSE: sent command: $RC,0xb0020020*27
+VERBOSE: received command: $RR,0xB0020020,0x00000000*72
+
+INFO: Read Register:
+VERBOSE: sent command: $RC,0xb0020010*24
+VERBOSE: received command: $RR,0xB0020010,0x00000000*71
+
+INFO: Read Register:
+VERBOSE: sent command: $RC,0xb002000c*76
+VERBOSE: received command: $RR,0xB002000C,0x01020001*01
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Write Register:
+VERBOSE: sent command: $WC,0xb002008c,0x004c544e*18
+VERBOSE: received command: $WR,0xB002008C*6A
+
+INFO: Write Register:
+VERBOSE: sent command: $WC,0xb0020090,0x00000000*4d
+VERBOSE: received command: $WR,0xB0020090*18
+
+INFO: Write Register:
+VERBOSE: sent command: $WC,0xb0020080,0x00000004*48
+VERBOSE: received command: $WR,0xB0020080*19
+
+INFO: Write Register:
+VERBOSE: sent command: $WC,0xb0020088,0x00004000*40
+VERBOSE: received command: $WR,0xB0020088*11
+
+INFO: Write Register:
+VERBOSE: sent command: $WC,0xb0020080,0x00000002*4e
+VERBOSE: received command: $WR,0xB0020080*19
+
+INFO: Write Register:
+VERBOSE: sent command: $WC,0xb0020084,0x0104e371*1d
+VERBOSE: received command: $WR,0xB0020084*1D
+
+INFO: Write Register:
+VERBOSE: sent command: $WC,0xb0020080,0x00000001*4d
+VERBOSE: received command: $WR,0xB0020080*19
+
+INFO: Write Register:
+VERBOSE: sent command: $WC,0xb00200a4,0x47505320*13
+VERBOSE: received command: $WR,0xB00200A4*64
+
+INFO: Write Register:
+VERBOSE: sent command: $WC,0xb0020080,0x00000010*4d
+VERBOSE: received command: $WR,0xB0020080*19
+
+INFO: Write Register:
+VERBOSE: sent command: $WC,0xb0020094,0x1000a8c0*42
+VERBOSE: received command: $WR,0xB0020094*1C
+
+INFO: Write Register:
+VERBOSE: sent command: $WC,0xb0020080,0x00000008*44
+VERBOSE: received command: $WR,0xB0020080*19
+
+INFO: Write Register:
+VERBOSE: sent command: $WC,0xb0020104,0x00252000*44
+VERBOSE: received command: $WR,0xB0020104*14
+
+INFO: Write Register:
+VERBOSE: sent command: $WC,0xb0020100,0x00000003*46
+VERBOSE: received command: $WR,0xB0020100*10
+
+INFO: Write Register:
+VERBOSE: sent command: $WC,0xb0020010,0x00000000*45
+VERBOSE: received command: $WR,0xB0020010*10
+
+INFO: Write Register:
+VERBOSE: sent command: $WC,0xb0020000,0x00000001*45
+VERBOSE: received command: $WR,0xB0020000*11
+
+INFO: Read Register:
+VERBOSE: sent command: $RC,0xb0020000*25
+VERBOSE: received command: $RR,0xB0020000,0x00000001*71
+
+INFO: Read Register:
+VERBOSE: sent command: $RC,0xb002008c*7e
+VERBOSE: received command: $RR,0xB002008C,0x004C544E*0C
+
+INFO: Read Register:
+VERBOSE: sent command: $RC,0xb0020090*2c
+VERBOSE: received command: $RR,0xB0020090,0x00000000*79
+
+INFO: Read Register:
+VERBOSE: sent command: $RC,0xb0020088*25
+VERBOSE: received command: $RR,0xB0020088,0x00004000*74
+
+INFO: Read Register:
+VERBOSE: sent command: $RC,0xb0020084*29
+VERBOSE: received command: $RR,0xB0020084,0x0104E371*09
+
+INFO: Read Register:
+VERBOSE: sent command: $RC,0xb00200a4*70
+VERBOSE: received command: $RR,0xB00200A4,0x47505320*07
+
+INFO: Read Register:
+VERBOSE: sent command: $RC,0xb0020094*28
+VERBOSE: received command: $RR,0xB0020094,0x1000A8C0*76
+
+INFO: Write Register:
+VERBOSE: sent command: $WC,0xb0020100,0x40000000*41
+VERBOSE: received command: $WR,0xB0020100*10
+
+INFO: Read Register:
+VERBOSE: sent command: $RC,0xb0020100*24
+VERBOSE: received command: $RR,0xB0020100,0x80000000*79
+
+INFO: Read Register:
+VERBOSE: sent command: $RC,0xb0020104*20
+VERBOSE: received command: $RR,0xB0020104,0x00252000*70
+
+INFO: Read Register:
+VERBOSE: sent command: $RC,0xb0020014*20
+VERBOSE: received command: $RR,0xB0020014,0x00000000*75
+
+INFO: Read Register:
+VERBOSE: sent command: $RC,0xb0020018*2c
+VERBOSE: received command: $RR,0xB0020018,0x00000000*79
+
+INFO: Read Register:
+VERBOSE: sent command: $RC,0xb002001c*77
+VERBOSE: received command: $RR,0xB002001C,0x00000000*02
+
+INFO: Read Register:
+VERBOSE: sent command: $RC,0xb0020020*27
+VERBOSE: received command: $RR,0xB0020020,0x00000001*73
+
+INFO: Read Register:
+VERBOSE: sent command: $RC,0xb0020010*24
+VERBOSE: received command: $RR,0xB0020010,0x00000000*71
+
+INFO: Read Register:
+VERBOSE: sent command: $RC,0xb002000c*76
+VERBOSE: received command: $RR,0xB002000C,0x01020001*01
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Closing Port:
+INFO: closing port successful
+
+INFO: Opening Port:
+INFO: opening port: ttyUSB0 successful
+VERBOSE: no response received
+VERBOSE: received command: $ER,0x00000001*72
+INFO: baudrate detected at: 1000000
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connected correctly to target on: ttyUSB0
+
+INFO: Read Register:
+VERBOSE: sent command: $RC,0x00000000*75
+VERBOSE: received command: $RR,0x00000000,0x00010001*00
+
+INFO: Read Register:
+VERBOSE: sent command: $RC,0x00000004*71
+VERBOSE: received command: $RR,0x00000004,0x00000000*04
+
+INFO: Read Register:
+VERBOSE: sent command: $RC,0x00000008*7d
+VERBOSE: received command: $RR,0x00000008,0x0FFFFFFF*7E
+
+INFO: Read Register:
+VERBOSE: sent command: $RC,0x0000000c*26
+VERBOSE: received command: $RR,0x0000000C,0x00000000*73
+
+INFO: Read Register:
+VERBOSE: sent command: $RC,0x00000010*74
+VERBOSE: received command: $RR,0x00000010,0x00020001*02
+
+INFO: Read Register:
+VERBOSE: sent command: $RC,0x00000014*70
+VERBOSE: received command: $RR,0x00000014,0xB0000000*77
+
+INFO: Read Register:
+VERBOSE: sent command: $RC,0x00000018*7c
+VERBOSE: received command: $RR,0x00000018,0xB000FFFF*7B
+
+INFO: Read Register:
+VERBOSE: sent command: $RC,0x0000001c*27
+VERBOSE: received command: $RR,0x0000001C,0x00000000*72
+
+INFO: Read Register:
+VERBOSE: sent command: $RC,0x00000020*77
+VERBOSE: received command: $RR,0x00000020,0x00090001*0A
+
+INFO: Read Register:
+VERBOSE: sent command: $RC,0x00000024*73
+VERBOSE: received command: $RR,0x00000024,0xB0010000*75
+
+INFO: Read Register:
+VERBOSE: sent command: $RC,0x00000028*7f
+VERBOSE: received command: $RR,0x00000028,0xB001FFFF*79
+
+INFO: Read Register:
+VERBOSE: sent command: $RC,0x0000002c*24
+VERBOSE: received command: $RR,0x0000002C,0x00000000*71
+
+INFO: Read Register:
+VERBOSE: sent command: $RC,0x00000030*76
+VERBOSE: received command: $RR,0x00000030,0x00160001*05
+
+INFO: Read Register:
+VERBOSE: sent command: $RC,0x00000034*72
+VERBOSE: received command: $RR,0x00000034,0xB0020000*77
+
+INFO: Read Register:
+VERBOSE: sent command: $RC,0x00000038*7e
+VERBOSE: received command: $RR,0x00000038,0xB002FFFF*7B
+
+INFO: Read Register:
+VERBOSE: sent command: $RC,0x0000003c*25
+VERBOSE: received command: $RR,0x0000003C,0x00000000*70
+
+INFO: Read Register:
+VERBOSE: sent command: $RC,0x00000040*71
+VERBOSE: received command: $RR,0x00000040,0x00070001*02
+
+INFO: Read Register:
+VERBOSE: sent command: $RC,0x00000044*75
+VERBOSE: received command: $RR,0x00000044,0xB0030000*71
+
+INFO: Read Register:
+VERBOSE: sent command: $RC,0x00000048*79
+VERBOSE: received command: $RR,0x00000048,0xB003FFFF*7D
+
+INFO: Read Register:
+VERBOSE: sent command: $RC,0x0000004c*22
+VERBOSE: received command: $RR,0x0000004C,0x00000000*77
+
+INFO: Read Register:
+VERBOSE: sent command: $RC,0x00000050*70
+VERBOSE: received command: $RR,0x00000050,0x000F0001*72
+
+INFO: Read Register:
+VERBOSE: sent command: $RC,0x00000054*74
+VERBOSE: received command: $RR,0x00000054,0xB0040000*77
+
+INFO: Read Register:
+VERBOSE: sent command: $RC,0x00000058*78
+VERBOSE: received command: $RR,0x00000058,0xB004FFFF*7B
+
+INFO: Read Register:
+VERBOSE: sent command: $RC,0x0000005c*23
+VERBOSE: received command: $RR,0x0000005C,0x00000000*76
+
+INFO: Read Register:
+VERBOSE: sent command: $RC,0x00000060*73
+VERBOSE: received command: $RR,0x00000060,0x00000000*06
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Read Register:
+VERBOSE: sent command: $RC,0xb0020000*25
+VERBOSE: received command: $RR,0xB0020000,0x00000001*71
+
+INFO: Read Register:
+VERBOSE: sent command: $RC,0xb002008c*7e
+VERBOSE: received command: $RR,0xB002008C,0x004C544E*0C
+
+INFO: Read Register:
+VERBOSE: sent command: $RC,0xb0020090*2c
+VERBOSE: received command: $RR,0xB0020090,0x00000000*79
+
+INFO: Read Register:
+VERBOSE: sent command: $RC,0xb0020088*25
+VERBOSE: received command: $RR,0xB0020088,0x00004000*74
+
+INFO: Read Register:
+VERBOSE: sent command: $RC,0xb0020084*29
+VERBOSE: received command: $RR,0xB0020084,0x0104E371*09
+
+INFO: Read Register:
+VERBOSE: sent command: $RC,0xb00200a4*70
+VERBOSE: received command: $RR,0xB00200A4,0x47505320*07
+
+INFO: Read Register:
+VERBOSE: sent command: $RC,0xb0020094*28
+VERBOSE: received command: $RR,0xB0020094,0x1000A8C0*76
+
+INFO: Write Register:
+VERBOSE: sent command: $WC,0xb0020100,0x40000000*41
+VERBOSE: received command: $WR,0xB0020100*10
+
+INFO: Read Register:
+VERBOSE: sent command: $RC,0xb0020100*24
+VERBOSE: received command: $RR,0xB0020100,0x80000000*79
+
+INFO: Read Register:
+VERBOSE: sent command: $RC,0xb0020104*20
+VERBOSE: received command: $RR,0xB0020104,0x00252000*70
+
+INFO: Read Register:
+VERBOSE: sent command: $RC,0xb0020014*20
+VERBOSE: received command: $RR,0xB0020014,0x00000000*75
+
+INFO: Read Register:
+VERBOSE: sent command: $RC,0xb0020018*2c
+VERBOSE: received command: $RR,0xB0020018,0x00000000*79
+
+INFO: Read Register:
+VERBOSE: sent command: $RC,0xb002001c*77
+VERBOSE: received command: $RR,0xB002001C,0x00000000*02
+
+INFO: Read Register:
+VERBOSE: sent command: $RC,0xb0020020*27
+VERBOSE: received command: $RR,0xB0020020,0x00000049*7F
+
+INFO: Read Register:
+VERBOSE: sent command: $RC,0xb0020010*24
+VERBOSE: received command: $RR,0xB0020010,0x00000000*71
+
+INFO: Read Register:
+VERBOSE: sent command: $RC,0xb002000c*76
+VERBOSE: received command: $RR,0xB002000C,0x01020001*01
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Closing Port:
+INFO: closing port successful
+
+INFO: Opening Port:
+INFO: opening port: ttyUSB0 successful
+VERBOSE: no response received
+VERBOSE: received command: $ER,0x00000001*72
+INFO: baudrate detected at: 1000000
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connected correctly to target on: ttyUSB0
+
+INFO: Read Register:
+VERBOSE: sent command: $RC,0x00000000*75
+VERBOSE: received command: $RR,0x00000000,0x00010001*00
+
+INFO: Read Register:
+VERBOSE: sent command: $RC,0x00000004*71
+VERBOSE: received command: $RR,0x00000004,0x00000000*04
+
+INFO: Read Register:
+VERBOSE: sent command: $RC,0x00000008*7d
+VERBOSE: received command: $RR,0x00000008,0x0FFFFFFF*7E
+
+INFO: Read Register:
+VERBOSE: sent command: $RC,0x0000000c*26
+VERBOSE: received command: $RR,0x0000000C,0x00000000*73
+
+INFO: Read Register:
+VERBOSE: sent command: $RC,0x00000010*74
+VERBOSE: received command: $RR,0x00000010,0x00020001*02
+
+INFO: Read Register:
+VERBOSE: sent command: $RC,0x00000014*70
+VERBOSE: received command: $RR,0x00000014,0xB0000000*77
+
+INFO: Read Register:
+VERBOSE: sent command: $RC,0x00000018*7c
+VERBOSE: received command: $RR,0x00000018,0xB000FFFF*7B
+
+INFO: Read Register:
+VERBOSE: sent command: $RC,0x0000001c*27
+VERBOSE: received command: $RR,0x0000001C,0x00000000*72
+
+INFO: Read Register:
+VERBOSE: sent command: $RC,0x00000020*77
+VERBOSE: received command: $RR,0x00000020,0x00090001*0A
+
+INFO: Read Register:
+VERBOSE: sent command: $RC,0x00000024*73
+VERBOSE: received command: $RR,0x00000024,0xB0010000*75
+
+INFO: Read Register:
+VERBOSE: sent command: $RC,0x00000028*7f
+VERBOSE: received command: $RR,0x00000028,0xB001FFFF*79
+
+INFO: Read Register:
+VERBOSE: sent command: $RC,0x0000002c*24
+VERBOSE: received command: $RR,0x0000002C,0x00000000*71
+
+INFO: Read Register:
+VERBOSE: sent command: $RC,0x00000030*76
+VERBOSE: received command: $RR,0x00000030,0x00160001*05
+
+INFO: Read Register:
+VERBOSE: sent command: $RC,0x00000034*72
+VERBOSE: received command: $RR,0x00000034,0xB0020000*77
+
+INFO: Read Register:
+VERBOSE: sent command: $RC,0x00000038*7e
+VERBOSE: received command: $RR,0x00000038,0xB002FFFF*7B
+
+INFO: Read Register:
+VERBOSE: sent command: $RC,0x0000003c*25
+VERBOSE: received command: $RR,0x0000003C,0x00000000*70
+
+INFO: Read Register:
+VERBOSE: sent command: $RC,0x00000040*71
+VERBOSE: received command: $RR,0x00000040,0x00070001*02
+
+INFO: Read Register:
+VERBOSE: sent command: $RC,0x00000044*75
+VERBOSE: received command: $RR,0x00000044,0xB0030000*71
+
+INFO: Read Register:
+VERBOSE: sent command: $RC,0x00000048*79
+VERBOSE: received command: $RR,0x00000048,0xB003FFFF*7D
+
+INFO: Read Register:
+VERBOSE: sent command: $RC,0x0000004c*22
+VERBOSE: received command: $RR,0x0000004C,0x00000000*77
+
+INFO: Read Register:
+VERBOSE: sent command: $RC,0x00000050*70
+VERBOSE: received command: $RR,0x00000050,0x000F0001*72
+
+INFO: Read Register:
+VERBOSE: sent command: $RC,0x00000054*74
+VERBOSE: received command: $RR,0x00000054,0xB0040000*77
+
+INFO: Read Register:
+VERBOSE: sent command: $RC,0x00000058*78
+VERBOSE: received command: $RR,0x00000058,0xB004FFFF*7B
+
+INFO: Read Register:
+VERBOSE: sent command: $RC,0x0000005c*23
+VERBOSE: received command: $RR,0x0000005C,0x00000000*76
+
+INFO: Read Register:
+VERBOSE: sent command: $RC,0x00000060*73
+VERBOSE: received command: $RR,0x00000060,0x00000000*06
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Read Register:
+VERBOSE: sent command: $RC,0xb0010000*26
+VERBOSE: received command: $RR,0xB0010000,0x00000001*72
+
+INFO: Read Register:
+VERBOSE: sent command: $RC,0xb0010088*26
+VERBOSE: received command: $RR,0xB0010088,0x0000C000*00
+
+INFO: Read Register:
+VERBOSE: sent command: $RC,0xb0010084*2a
+VERBOSE: received command: $RR,0xB0010084,0x00010000*7E
+
+INFO: Read Register:
+VERBOSE: sent command: $RC,0xb001008c*7d
+VERBOSE: received command: $RR,0xB001008C,0x1000A8C0*03
+
+INFO: Write Register:
+VERBOSE: sent command: $WC,0xb0010100,0x40000000*42
+VERBOSE: received command: $WR,0xB0010100*13
+
+INFO: Read Register:
+VERBOSE: sent command: $RC,0xb0010100*27
+VERBOSE: received command: $RR,0xB0010100,0x80000000*7A
+
+INFO: Read Register:
+VERBOSE: sent command: $RC,0xb0010104*23
+VERBOSE: received command: $RR,0xB0010104,0xFF4C544E*71
+
+INFO: Read Register:
+VERBOSE: sent command: $RC,0xb0010108*2f
+VERBOSE: received command: $RR,0xB0010108,0x000000FE*79
+
+INFO: Read Register:
+VERBOSE: sent command: $RC,0xb001010c*74
+VERBOSE: received command: $RR,0xB001010C,0x8080FF00*01
+
+INFO: Read Register:
+VERBOSE: sent command: $RC,0xb0010110*26
+VERBOSE: received command: $RR,0xB0010110,0x0621436A*06
+
+INFO: Read Register:
+VERBOSE: sent command: $RC,0xb0010114*22
+VERBOSE: received command: $RR,0xB0010114,0x00000000*77
+
+INFO: Read Register:
+VERBOSE: sent command: $RC,0xb0010118*2e
+VERBOSE: received command: $RR,0xB0010118,0x00000032*7A
+
+INFO: Read Register:
+VERBOSE: sent command: $RC,0xb001011c*75
+VERBOSE: received command: $RR,0xB001011C,0x00000001*01
+
+INFO: Write Register:
+VERBOSE: sent command: $WC,0xb0010200,0x40000000*41
+VERBOSE: received command: $WR,0xB0010200*10
+
+INFO: Read Register:
+VERBOSE: sent command: $RC,0xb0010200*24
+VERBOSE: received command: $RR,0xB0010200,0x80000000*79
+
+INFO: Read Register:
+VERBOSE: sent command: $RC,0xb0010204*20
+VERBOSE: received command: $RR,0xB0010204,0x00000000*75
+
+INFO: Read Register:
+VERBOSE: sent command: $RC,0xb0010208*2c
+VERBOSE: received command: $RR,0xB0010208,0x00000000*79
+
+INFO: Read Register:
+VERBOSE: sent command: $RC,0xb001020c*77
+VERBOSE: received command: $RR,0xB001020C,0x00000006*04
+
+INFO: Read Register:
+VERBOSE: sent command: $RC,0xb0010210*25
+VERBOSE: received command: $RR,0xB0010210,0x00030000*73
+
+INFO: Read Register:
+VERBOSE: sent command: $RC,0xb0010214*21
+VERBOSE: received command: $RR,0xB0010214,0x00000300*77
+
+INFO: Read Register:
+VERBOSE: sent command: $RC,0xb0010218*2d
+VERBOSE: received command: $RR,0xB0010218,0x00000300*7B
+
+INFO: Read Register:
+VERBOSE: sent command: $RC,0xb001021c*76
+VERBOSE: received command: $RR,0xB001021C,0x00000000*03
+
+INFO: Read Register:
+VERBOSE: sent command: $RC,0xb0010220*26
+VERBOSE: received command: $RR,0xB0010220,0x00000320*72
+
+INFO: Write Register:
+VERBOSE: sent command: $WC,0xb0010300,0x40000000*40
+VERBOSE: received command: $WR,0xB0010300*11
+
+INFO: Read Register:
+VERBOSE: sent command: $RC,0xb0010300*25
+VERBOSE: received command: $RR,0xB0010300,0x80000000*78
+
+INFO: Read Register:
+VERBOSE: sent command: $RC,0xb0010304*21
+VERBOSE: received command: $RR,0xB0010304,0x00000000*74
+
+INFO: Read Register:
+VERBOSE: sent command: $RC,0xb0010308*2d
+VERBOSE: received command: $RR,0xB0010308,0x00000000*78
+
+INFO: Read Register:
+VERBOSE: sent command: $RC,0xb001030c*76
+VERBOSE: received command: $RR,0xB001030C,0x00000000*03
+
+INFO: Write Register:
+VERBOSE: sent command: $WC,0xb0010400,0x40000000*47
+VERBOSE: received command: $WR,0xB0010400*16
+
+INFO: Read Register:
+VERBOSE: sent command: $RC,0xb0010400*22
+VERBOSE: received command: $RR,0xB0010400,0x80000000*7F
+
+INFO: Read Register:
+VERBOSE: sent command: $RC,0xb0010404*26
+VERBOSE: received command: $RR,0xB0010404,0xFF4C544E*74
+
+INFO: Read Register:
+VERBOSE: sent command: $RC,0xb0010408*2a
+VERBOSE: received command: $RR,0xB0010408,0x000000FE*7C
+
+INFO: Read Register:
+VERBOSE: sent command: $RC,0xb001040c*71
+VERBOSE: received command: $RR,0xB001040C,0x80800000*04
+
+INFO: Read Register:
+VERBOSE: sent command: $RC,0xb0010410*23
+VERBOSE: received command: $RR,0xB0010410,0xFF4C544E*71
+
+INFO: Read Register:
+VERBOSE: sent command: $RC,0xb0010414*27
+VERBOSE: received command: $RR,0xB0010414,0x000000FE*71
+
+INFO: Read Register:
+VERBOSE: sent command: $RC,0xb001040c*71
+VERBOSE: received command: $RR,0xB001040C,0x80800000*04
+
+INFO: Read Register:
+VERBOSE: sent command: $RC,0xb0010418*2b
+VERBOSE: received command: $RR,0xB0010418,0x0621436A*0B
+
+INFO: Read Register:
+VERBOSE: sent command: $RC,0xb001041c*70
+VERBOSE: received command: $RR,0xB001041C,0x00000000*05
+
+INFO: Read Register:
+VERBOSE: sent command: $RC,0xb0010420*20
+VERBOSE: received command: $RR,0xB0010420,0x00000032*74
+
+INFO: Read Register:
+VERBOSE: sent command: $RC,0xb0010424*24
+VERBOSE: received command: $RR,0xB0010424,0x00000000*71
+
+INFO: Write Register:
+VERBOSE: sent command: $WC,0xb0010500,0x40000000*46
+VERBOSE: received command: $WR,0xB0010500*17
+
+INFO: Read Register:
+VERBOSE: sent command: $RC,0xb0010500*23
+VERBOSE: received command: $RR,0xB0010500,0x80000000*7E
+
+INFO: Read Register:
+VERBOSE: sent command: $RC,0xb0010504*27
+VERBOSE: received command: $RR,0xB0010504,0x00252720*72
+
+INFO: Read Register:
+VERBOSE: sent command: $RC,0xb0010508*2b
+VERBOSE: received command: $RR,0xB0010508,0x00000000*7E
+
+INFO: Read Register:
+VERBOSE: sent command: $RC,0xb001050c*70
+VERBOSE: received command: $RR,0xB001050C,0x00000000*05
+
+INFO: Read Register:
+VERBOSE: sent command: $RC,0xb0010510*22
+VERBOSE: received command: $RR,0xB0010510,0x00000000*77
+
+INFO: Read Register:
+VERBOSE: sent command: $RC,0xb0010514*26
+VERBOSE: received command: $RR,0xB0010514,0x00000000*73
+
+INFO: Read Register:
+VERBOSE: sent command: $RC,0xb0010518*2a
+VERBOSE: received command: $RR,0xB0010518,0x00000003*7C
+
+INFO: Read Register:
+VERBOSE: sent command: $RC,0xb001051c*71
+VERBOSE: received command: $RR,0xB001051C,0x00505450*05
+
+INFO: Read Register:
+VERBOSE: sent command: $RC,0xb0010520*21
+VERBOSE: received command: $RR,0xB0010520,0x00000000*74
+
+INFO: Read Register:
+VERBOSE: sent command: $RC,0xb0010524*25
+VERBOSE: received command: $RR,0xB0010524,0x00000000*70
+
+INFO: Read Register:
+VERBOSE: sent command: $RC,0xb001000c*75
+VERBOSE: received command: $RR,0xB001000C,0x02060001*05
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Read Register:
+VERBOSE: sent command: $RC,0xb0020000*25
+VERBOSE: received command: $RR,0xB0020000,0x00000001*71
+
+INFO: Read Register:
+VERBOSE: sent command: $RC,0xb002008c*7e
+VERBOSE: received command: $RR,0xB002008C,0x004C544E*0C
+
+INFO: Read Register:
+VERBOSE: sent command: $RC,0xb0020090*2c
+VERBOSE: received command: $RR,0xB0020090,0x00000000*79
+
+INFO: Read Register:
+VERBOSE: sent command: $RC,0xb0020088*25
+VERBOSE: received command: $RR,0xB0020088,0x00004000*74
+
+INFO: Read Register:
+VERBOSE: sent command: $RC,0xb0020084*29
+VERBOSE: received command: $RR,0xB0020084,0x0104E371*09
+
+INFO: Read Register:
+VERBOSE: sent command: $RC,0xb00200a4*70
+VERBOSE: received command: $RR,0xB00200A4,0x47505320*07
+
+INFO: Read Register:
+VERBOSE: sent command: $RC,0xb0020094*28
+VERBOSE: received command: $RR,0xB0020094,0x1000A8C0*76
+
+INFO: Write Register:
+VERBOSE: sent command: $WC,0xb0020100,0x40000000*41
+VERBOSE: received command: $WR,0xB0020100*10
+
+INFO: Read Register:
+VERBOSE: sent command: $RC,0xb0020100*24
+VERBOSE: received command: $RR,0xB0020100,0x80000000*79
+
+INFO: Read Register:
+VERBOSE: sent command: $RC,0xb0020104*20
+VERBOSE: received command: $RR,0xB0020104,0x00252000*70
+
+INFO: Read Register:
+VERBOSE: sent command: $RC,0xb0020014*20
+VERBOSE: received command: $RR,0xB0020014,0x00000000*75
+
+INFO: Read Register:
+VERBOSE: sent command: $RC,0xb0020018*2c
+VERBOSE: received command: $RR,0xB0020018,0x00000000*79
+
+INFO: Read Register:
+VERBOSE: sent command: $RC,0xb002001c*77
+VERBOSE: received command: $RR,0xB002001C,0x00000000*02
+
+INFO: Read Register:
+VERBOSE: sent command: $RC,0xb0020020*27
+VERBOSE: received command: $RR,0xB0020020,0x00000001*73
+
+INFO: Read Register:
+VERBOSE: sent command: $RC,0xb0020010*24
+VERBOSE: received command: $RR,0xB0020010,0x00000000*71
+
+INFO: Read Register:
+VERBOSE: sent command: $RC,0xb002000c*76
+VERBOSE: received command: $RR,0xB002000C,0x01020001*01
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Read Register:
+VERBOSE: sent command: $RC,0xb0010000*26
+VERBOSE: received command: $RR,0xB0010000,0x00000001*72
+
+INFO: Read Register:
+VERBOSE: sent command: $RC,0xb0010088*26
+VERBOSE: received command: $RR,0xB0010088,0x0000C000*00
+
+INFO: Read Register:
+VERBOSE: sent command: $RC,0xb0010084*2a
+VERBOSE: received command: $RR,0xB0010084,0x00010000*7E
+
+INFO: Read Register:
+VERBOSE: sent command: $RC,0xb001008c*7d
+VERBOSE: received command: $RR,0xB001008C,0x1000A8C0*03
+
+INFO: Write Register:
+VERBOSE: sent command: $WC,0xb0010100,0x40000000*42
+VERBOSE: received command: $WR,0xB0010100*13
+
+INFO: Read Register:
+VERBOSE: sent command: $RC,0xb0010100*27
+VERBOSE: received command: $RR,0xB0010100,0x80000000*7A
+
+INFO: Read Register:
+VERBOSE: sent command: $RC,0xb0010104*23
+VERBOSE: received command: $RR,0xB0010104,0xFF4C544E*71
+
+INFO: Read Register:
+VERBOSE: sent command: $RC,0xb0010108*2f
+VERBOSE: received command: $RR,0xB0010108,0x000000FE*79
+
+INFO: Read Register:
+VERBOSE: sent command: $RC,0xb001010c*74
+VERBOSE: received command: $RR,0xB001010C,0x8080FF00*01
+
+INFO: Read Register:
+VERBOSE: sent command: $RC,0xb0010110*26
+VERBOSE: received command: $RR,0xB0010110,0x0621436A*06
+
+INFO: Read Register:
+VERBOSE: sent command: $RC,0xb0010114*22
+VERBOSE: received command: $RR,0xB0010114,0x00000000*77
+
+INFO: Read Register:
+VERBOSE: sent command: $RC,0xb0010118*2e
+VERBOSE: received command: $RR,0xB0010118,0x00000032*7A
+
+INFO: Read Register:
+VERBOSE: sent command: $RC,0xb001011c*75
+VERBOSE: received command: $RR,0xB001011C,0x00000001*01
+
+INFO: Write Register:
+VERBOSE: sent command: $WC,0xb0010200,0x40000000*41
+VERBOSE: received command: $WR,0xB0010200*10
+
+INFO: Read Register:
+VERBOSE: sent command: $RC,0xb0010200*24
+VERBOSE: received command: $RR,0xB0010200,0x80000000*79
+
+INFO: Read Register:
+VERBOSE: sent command: $RC,0xb0010204*20
+VERBOSE: received command: $RR,0xB0010204,0x00000000*75
+
+INFO: Read Register:
+VERBOSE: sent command: $RC,0xb0010208*2c
+VERBOSE: received command: $RR,0xB0010208,0x00000000*79
+
+INFO: Read Register:
+VERBOSE: sent command: $RC,0xb001020c*77
+VERBOSE: received command: $RR,0xB001020C,0x00000006*04
+
+INFO: Read Register:
+VERBOSE: sent command: $RC,0xb0010210*25
+VERBOSE: received command: $RR,0xB0010210,0x00030000*73
+
+INFO: Read Register:
+VERBOSE: sent command: $RC,0xb0010214*21
+VERBOSE: received command: $RR,0xB0010214,0x00000300*77
+
+INFO: Read Register:
+VERBOSE: sent command: $RC,0xb0010218*2d
+VERBOSE: received command: $RR,0xB0010218,0x00000300*7B
+
+INFO: Read Register:
+VERBOSE: sent command: $RC,0xb001021c*76
+VERBOSE: received command: $RR,0xB001021C,0x00000000*03
+
+INFO: Read Register:
+VERBOSE: sent command: $RC,0xb0010220*26
+VERBOSE: received command: $RR,0xB0010220,0x00000320*72
+
+INFO: Write Register:
+VERBOSE: sent command: $WC,0xb0010300,0x40000000*40
+VERBOSE: received command: $WR,0xB0010300*11
+
+INFO: Read Register:
+VERBOSE: sent command: $RC,0xb0010300*25
+VERBOSE: received command: $RR,0xB0010300,0x80000000*78
+
+INFO: Read Register:
+VERBOSE: sent command: $RC,0xb0010304*21
+VERBOSE: received command: $RR,0xB0010304,0x00000000*74
+
+INFO: Read Register:
+VERBOSE: sent command: $RC,0xb0010308*2d
+VERBOSE: received command: $RR,0xB0010308,0x00000000*78
+
+INFO: Read Register:
+VERBOSE: sent command: $RC,0xb001030c*76
+VERBOSE: received command: $RR,0xB001030C,0x00000000*03
+
+INFO: Write Register:
+VERBOSE: sent command: $WC,0xb0010400,0x40000000*47
+VERBOSE: received command: $WR,0xB0010400*16
+
+INFO: Read Register:
+VERBOSE: sent command: $RC,0xb0010400*22
+VERBOSE: received command: $RR,0xB0010400,0x80000000*7F
+
+INFO: Read Register:
+VERBOSE: sent command: $RC,0xb0010404*26
+VERBOSE: received command: $RR,0xB0010404,0xFF4C544E*74
+
+INFO: Read Register:
+VERBOSE: sent command: $RC,0xb0010408*2a
+VERBOSE: received command: $RR,0xB0010408,0x000000FE*7C
+
+INFO: Read Register:
+VERBOSE: sent command: $RC,0xb001040c*71
+VERBOSE: received command: $RR,0xB001040C,0x80800000*04
+
+INFO: Read Register:
+VERBOSE: sent command: $RC,0xb0010410*23
+VERBOSE: received command: $RR,0xB0010410,0xFF4C544E*71
+
+INFO: Read Register:
+VERBOSE: sent command: $RC,0xb0010414*27
+VERBOSE: received command: $RR,0xB0010414,0x000000FE*71
+
+INFO: Read Register:
+VERBOSE: sent command: $RC,0xb001040c*71
+VERBOSE: received command: $RR,0xB001040C,0x80800000*04
+
+INFO: Read Register:
+VERBOSE: sent command: $RC,0xb0010418*2b
+VERBOSE: received command: $RR,0xB0010418,0x0621436A*0B
+
+INFO: Read Register:
+VERBOSE: sent command: $RC,0xb001041c*70
+VERBOSE: received command: $RR,0xB001041C,0x00000000*05
+
+INFO: Read Register:
+VERBOSE: sent command: $RC,0xb0010420*20
+VERBOSE: received command: $RR,0xB0010420,0x00000032*74
+
+INFO: Read Register:
+VERBOSE: sent command: $RC,0xb0010424*24
+VERBOSE: received command: $RR,0xB0010424,0x00000000*71
+
+INFO: Write Register:
+VERBOSE: sent command: $WC,0xb0010500,0x40000000*46
+VERBOSE: received command: $WR,0xB0010500*17
+
+INFO: Read Register:
+VERBOSE: sent command: $RC,0xb0010500*23
+VERBOSE: received command: $RR,0xB0010500,0x80000000*7E
+
+INFO: Read Register:
+VERBOSE: sent command: $RC,0xb0010504*27
+VERBOSE: received command: $RR,0xB0010504,0x00252720*72
+
+INFO: Read Register:
+VERBOSE: sent command: $RC,0xb0010508*2b
+VERBOSE: received command: $RR,0xB0010508,0x00000000*7E
+
+INFO: Read Register:
+VERBOSE: sent command: $RC,0xb001050c*70
+VERBOSE: received command: $RR,0xB001050C,0x00000000*05
+
+INFO: Read Register:
+VERBOSE: sent command: $RC,0xb0010510*22
+VERBOSE: received command: $RR,0xB0010510,0x00000000*77
+
+INFO: Read Register:
+VERBOSE: sent command: $RC,0xb0010514*26
+VERBOSE: received command: $RR,0xB0010514,0x00000000*73
+
+INFO: Read Register:
+VERBOSE: sent command: $RC,0xb0010518*2a
+VERBOSE: received command: $RR,0xB0010518,0x00000003*7C
+
+INFO: Read Register:
+VERBOSE: sent command: $RC,0xb001051c*71
+VERBOSE: received command: $RR,0xB001051C,0x00505450*05
+
+INFO: Read Register:
+VERBOSE: sent command: $RC,0xb0010520*21
+VERBOSE: received command: $RR,0xB0010520,0x00000000*74
+
+INFO: Read Register:
+VERBOSE: sent command: $RC,0xb0010524*25
+VERBOSE: received command: $RR,0xB0010524,0x00000000*70
+
+INFO: Read Register:
+VERBOSE: sent command: $RC,0xb001000c*75
+VERBOSE: received command: $RR,0xB001000C,0x02060001*05
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Read Register:
+VERBOSE: sent command: $RC,0xb0020000*25
+VERBOSE: received command: $RR,0xB0020000,0x00000001*71
+
+INFO: Read Register:
+VERBOSE: sent command: $RC,0xb002008c*7e
+VERBOSE: received command: $RR,0xB002008C,0x004C544E*0C
+
+INFO: Read Register:
+VERBOSE: sent command: $RC,0xb0020090*2c
+VERBOSE: received command: $RR,0xB0020090,0x00000000*79
+
+INFO: Read Register:
+VERBOSE: sent command: $RC,0xb0020088*25
+VERBOSE: received command: $RR,0xB0020088,0x00004000*74
+
+INFO: Read Register:
+VERBOSE: sent command: $RC,0xb0020084*29
+VERBOSE: received command: $RR,0xB0020084,0x0104E371*09
+
+INFO: Read Register:
+VERBOSE: sent command: $RC,0xb00200a4*70
+VERBOSE: received command: $RR,0xB00200A4,0x47505320*07
+
+INFO: Read Register:
+VERBOSE: sent command: $RC,0xb0020094*28
+VERBOSE: received command: $RR,0xB0020094,0x1000A8C0*76
+
+INFO: Write Register:
+VERBOSE: sent command: $WC,0xb0020100,0x40000000*41
+VERBOSE: received command: $WR,0xB0020100*10
+
+INFO: Read Register:
+VERBOSE: sent command: $RC,0xb0020100*24
+VERBOSE: received command: $RR,0xB0020100,0x80000000*79
+
+INFO: Read Register:
+VERBOSE: sent command: $RC,0xb0020104*20
+VERBOSE: received command: $RR,0xB0020104,0x00252000*70
+
+INFO: Read Register:
+VERBOSE: sent command: $RC,0xb0020014*20
+VERBOSE: received command: $RR,0xB0020014,0x00000000*75
+
+INFO: Read Register:
+VERBOSE: sent command: $RC,0xb0020018*2c
+VERBOSE: received command: $RR,0xB0020018,0x00000000*79
+
+INFO: Read Register:
+VERBOSE: sent command: $RC,0xb002001c*77
+VERBOSE: received command: $RR,0xB002001C,0x00000000*02
+
+INFO: Read Register:
+VERBOSE: sent command: $RC,0xb0020020*27
+VERBOSE: received command: $RR,0xB0020020,0x00000065*71
+
+INFO: Read Register:
+VERBOSE: sent command: $RC,0xb0020010*24
+VERBOSE: received command: $RR,0xB0020010,0x00000000*71
+
+INFO: Read Register:
+VERBOSE: sent command: $RC,0xb002000c*76
+VERBOSE: received command: $RR,0xB002000C,0x01020001*01
+
+INFO: Read Register:
+VERBOSE: sent command: $RC,0xb0020000*25
+VERBOSE: received command: $RR,0xB0020000,0x00000001*71
+
+INFO: Read Register:
+VERBOSE: sent command: $RC,0xb002008c*7e
+VERBOSE: received command: $RR,0xB002008C,0x004C544E*0C
+
+INFO: Read Register:
+VERBOSE: sent command: $RC,0xb0020090*2c
+VERBOSE: received command: $RR,0xB0020090,0x00000000*79
+
+INFO: Read Register:
+VERBOSE: sent command: $RC,0xb0020088*25
+VERBOSE: received command: $RR,0xB0020088,0x00004000*74
+
+INFO: Read Register:
+VERBOSE: sent command: $RC,0xb0020084*29
+VERBOSE: received command: $RR,0xB0020084,0x0104E371*09
+
+INFO: Read Register:
+VERBOSE: sent command: $RC,0xb00200a4*70
+VERBOSE: received command: $RR,0xB00200A4,0x47505320*07
+
+INFO: Read Register:
+VERBOSE: sent command: $RC,0xb0020094*28
+VERBOSE: received command: $RR,0xB0020094,0x1000A8C0*76
+
+INFO: Write Register:
+VERBOSE: sent command: $WC,0xb0020100,0x40000000*41
+VERBOSE: received command: $WR,0xB0020100*10
+
+INFO: Read Register:
+VERBOSE: sent command: $RC,0xb0020100*24
+VERBOSE: received command: $RR,0xB0020100,0x80000000*79
+
+INFO: Read Register:
+VERBOSE: sent command: $RC,0xb0020104*20
+VERBOSE: received command: $RR,0xB0020104,0x00252000*70
+
+INFO: Read Register:
+VERBOSE: sent command: $RC,0xb0020014*20
+VERBOSE: received command: $RR,0xB0020014,0x00000000*75
+
+INFO: Read Register:
+VERBOSE: sent command: $RC,0xb0020018*2c
+VERBOSE: received command: $RR,0xB0020018,0x00000000*79
+
+INFO: Read Register:
+VERBOSE: sent command: $RC,0xb002001c*77
+VERBOSE: received command: $RR,0xB002001C,0x00000000*02
+
+INFO: Read Register:
+VERBOSE: sent command: $RC,0xb0020020*27
+VERBOSE: received command: $RR,0xB0020020,0x00000065*71
+
+INFO: Read Register:
+VERBOSE: sent command: $RC,0xb0020010*24
+VERBOSE: received command: $RR,0xB0020010,0x00000000*71
+
+INFO: Read Register:
+VERBOSE: sent command: $RC,0xb002000c*76
+VERBOSE: received command: $RR,0xB002000C,0x01020001*01
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Closing Port:
+INFO: closing port successful
+
+INFO: Opening Port:
+INFO: opening port: ttyUSB0 successful
+VERBOSE: no response received
+VERBOSE: received command: $ER,0x00000001*72
+INFO: baudrate detected at: 1000000
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connected correctly to target on: ttyUSB0
+
+INFO: Read Register:
+VERBOSE: sent command: $RC,0x00000000*75
+VERBOSE: received command: $RR,0x00000000,0x00010001*00
+
+INFO: Read Register:
+VERBOSE: sent command: $RC,0x00000004*71
+VERBOSE: received command: $RR,0x00000004,0x00000000*04
+
+INFO: Read Register:
+VERBOSE: sent command: $RC,0x00000008*7d
+VERBOSE: received command: $RR,0x00000008,0x0FFFFFFF*7E
+
+INFO: Read Register:
+VERBOSE: sent command: $RC,0x0000000c*26
+VERBOSE: received command: $RR,0x0000000C,0x00000000*73
+
+INFO: Read Register:
+VERBOSE: sent command: $RC,0x00000010*74
+VERBOSE: received command: $RR,0x00000010,0x00020001*02
+
+INFO: Read Register:
+VERBOSE: sent command: $RC,0x00000014*70
+VERBOSE: received command: $RR,0x00000014,0xB0000000*77
+
+INFO: Read Register:
+VERBOSE: sent command: $RC,0x00000018*7c
+VERBOSE: received command: $RR,0x00000018,0xB000FFFF*7B
+
+INFO: Read Register:
+VERBOSE: sent command: $RC,0x0000001c*27
+VERBOSE: received command: $RR,0x0000001C,0x00000000*72
+
+INFO: Read Register:
+VERBOSE: sent command: $RC,0x00000020*77
+VERBOSE: received command: $RR,0x00000020,0x00090001*0A
+
+INFO: Read Register:
+VERBOSE: sent command: $RC,0x00000024*73
+VERBOSE: received command: $RR,0x00000024,0xB0010000*75
+
+INFO: Read Register:
+VERBOSE: sent command: $RC,0x00000028*7f
+VERBOSE: received command: $RR,0x00000028,0xB001FFFF*79
+
+INFO: Read Register:
+VERBOSE: sent command: $RC,0x0000002c*24
+VERBOSE: received command: $RR,0x0000002C,0x00000000*71
+
+INFO: Read Register:
+VERBOSE: sent command: $RC,0x00000030*76
+VERBOSE: received command: $RR,0x00000030,0x00160001*05
+
+INFO: Read Register:
+VERBOSE: sent command: $RC,0x00000034*72
+VERBOSE: received command: $RR,0x00000034,0xB0020000*77
+
+INFO: Read Register:
+VERBOSE: sent command: $RC,0x00000038*7e
+VERBOSE: received command: $RR,0x00000038,0xB002FFFF*7B
+
+INFO: Read Register:
+VERBOSE: sent command: $RC,0x0000003c*25
+VERBOSE: received command: $RR,0x0000003C,0x00000000*70
+
+INFO: Read Register:
+VERBOSE: sent command: $RC,0x00000040*71
+VERBOSE: received command: $RR,0x00000040,0x00070001*02
+
+INFO: Read Register:
+VERBOSE: sent command: $RC,0x00000044*75
+VERBOSE: received command: $RR,0x00000044,0xB0030000*71
+
+INFO: Read Register:
+VERBOSE: sent command: $RC,0x00000048*79
+VERBOSE: received command: $RR,0x00000048,0xB003FFFF*7D
+
+INFO: Read Register:
+VERBOSE: sent command: $RC,0x0000004c*22
+VERBOSE: received command: $RR,0x0000004C,0x00000000*77
+
+INFO: Read Register:
+VERBOSE: sent command: $RC,0x00000050*70
+VERBOSE: received command: $RR,0x00000050,0x000F0001*72
+
+INFO: Read Register:
+VERBOSE: sent command: $RC,0x00000054*74
+VERBOSE: received command: $RR,0x00000054,0xB0040000*77
+
+INFO: Read Register:
+VERBOSE: sent command: $RC,0x00000058*78
+VERBOSE: received command: $RR,0x00000058,0xB004FFFF*7B
+
+INFO: Read Register:
+VERBOSE: sent command: $RC,0x0000005c*23
+VERBOSE: received command: $RR,0x0000005C,0x00000000*76
+
+INFO: Read Register:
+VERBOSE: sent command: $RC,0x00000060*73
+VERBOSE: received command: $RR,0x00000060,0x00000000*06
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Closing Port:
+INFO: closing port successful
+
+INFO: Opening Port:
+INFO: opening port: ttyUSB0 successful
+VERBOSE: no response received
+VERBOSE: received command: $ER,0x00000001*72
+INFO: baudrate detected at: 1000000
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connected correctly to target on: ttyUSB0
+
+INFO: Read Register:
+VERBOSE: sent command: $RC,0x00000000*75
+VERBOSE: received command: $RR,0x00000000,0x00010001*00
+
+INFO: Read Register:
+VERBOSE: sent command: $RC,0x00000004*71
+VERBOSE: received command: $RR,0x00000004,0x00000000*04
+
+INFO: Read Register:
+VERBOSE: sent command: $RC,0x00000008*7d
+VERBOSE: received command: $RR,0x00000008,0x0FFFFFFF*7E
+
+INFO: Read Register:
+VERBOSE: sent command: $RC,0x0000000c*26
+VERBOSE: received command: $RR,0x0000000C,0x00000000*73
+
+INFO: Read Register:
+VERBOSE: sent command: $RC,0x00000010*74
+VERBOSE: received command: $RR,0x00000010,0x00020001*02
+
+INFO: Read Register:
+VERBOSE: sent command: $RC,0x00000014*70
+VERBOSE: received command: $RR,0x00000014,0xB0000000*77
+
+INFO: Read Register:
+VERBOSE: sent command: $RC,0x00000018*7c
+VERBOSE: received command: $RR,0x00000018,0xB000FFFF*7B
+
+INFO: Read Register:
+VERBOSE: sent command: $RC,0x0000001c*27
+VERBOSE: received command: $RR,0x0000001C,0x00000000*72
+
+INFO: Read Register:
+VERBOSE: sent command: $RC,0x00000020*77
+VERBOSE: received command: $RR,0x00000020,0x00090001*0A
+
+INFO: Read Register:
+VERBOSE: sent command: $RC,0x00000024*73
+VERBOSE: received command: $RR,0x00000024,0xB0010000*75
+
+INFO: Read Register:
+VERBOSE: sent command: $RC,0x00000028*7f
+VERBOSE: received command: $RR,0x00000028,0xB001FFFF*79
+
+INFO: Read Register:
+VERBOSE: sent command: $RC,0x0000002c*24
+VERBOSE: received command: $RR,0x0000002C,0x00000000*71
+
+INFO: Read Register:
+VERBOSE: sent command: $RC,0x00000030*76
+VERBOSE: received command: $RR,0x00000030,0x00160001*05
+
+INFO: Read Register:
+VERBOSE: sent command: $RC,0x00000034*72
+VERBOSE: received command: $RR,0x00000034,0xB0020000*77
+
+INFO: Read Register:
+VERBOSE: sent command: $RC,0x00000038*7e
+VERBOSE: received command: $RR,0x00000038,0xB002FFFF*7B
+
+INFO: Read Register:
+VERBOSE: sent command: $RC,0x0000003c*25
+VERBOSE: received command: $RR,0x0000003C,0x00000000*70
+
+INFO: Read Register:
+VERBOSE: sent command: $RC,0x00000040*71
+VERBOSE: received command: $RR,0x00000040,0x00070001*02
+
+INFO: Read Register:
+VERBOSE: sent command: $RC,0x00000044*75
+VERBOSE: received command: $RR,0x00000044,0xB0030000*71
+
+INFO: Read Register:
+VERBOSE: sent command: $RC,0x00000048*79
+VERBOSE: received command: $RR,0x00000048,0xB003FFFF*7D
+
+INFO: Read Register:
+VERBOSE: sent command: $RC,0x0000004c*22
+VERBOSE: received command: $RR,0x0000004C,0x00000000*77
+
+INFO: Read Register:
+VERBOSE: sent command: $RC,0x00000050*70
+VERBOSE: received command: $RR,0x00000050,0x000F0001*72
+
+INFO: Read Register:
+VERBOSE: sent command: $RC,0x00000054*74
+VERBOSE: received command: $RR,0x00000054,0xB0040000*77
+
+INFO: Read Register:
+VERBOSE: sent command: $RC,0x00000058*78
+VERBOSE: received command: $RR,0x00000058,0xB004FFFF*7B
+
+INFO: Read Register:
+VERBOSE: sent command: $RC,0x0000005c*23
+VERBOSE: received command: $RR,0x0000005C,0x00000000*76
+
+INFO: Read Register:
+VERBOSE: sent command: $RC,0x00000060*73
+VERBOSE: received command: $RR,0x00000060,0x00000000*06
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Closing Port:
+INFO: closing port successful
+
+INFO: Opening Port:
+INFO: opening port: ttyUSB0 successful
+VERBOSE: no response received
+VERBOSE: received command: $ER,0x00000001*72
+INFO: baudrate detected at: 1000000
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connected correctly to target on: ttyUSB0
+
+INFO: Read Register:
+VERBOSE: sent command: $RC,0x00000000*75
+VERBOSE: received command: $RR,0x00000000,0x00010001*00
+
+INFO: Read Register:
+VERBOSE: sent command: $RC,0x00000004*71
+VERBOSE: received command: $RR,0x00000004,0x00000000*04
+
+INFO: Read Register:
+VERBOSE: sent command: $RC,0x00000008*7d
+VERBOSE: received command: $RR,0x00000008,0x0FFFFFFF*7E
+
+INFO: Read Register:
+VERBOSE: sent command: $RC,0x0000000c*26
+VERBOSE: received command: $RR,0x0000000C,0x00000000*73
+
+INFO: Read Register:
+VERBOSE: sent command: $RC,0x00000010*74
+VERBOSE: received command: $RR,0x00000010,0x00020001*02
+
+INFO: Read Register:
+VERBOSE: sent command: $RC,0x00000014*70
+VERBOSE: received command: $RR,0x00000014,0xB0000000*77
+
+INFO: Read Register:
+VERBOSE: sent command: $RC,0x00000018*7c
+VERBOSE: received command: $RR,0x00000018,0xB000FFFF*7B
+
+INFO: Read Register:
+VERBOSE: sent command: $RC,0x0000001c*27
+VERBOSE: received command: $RR,0x0000001C,0x00000000*72
+
+INFO: Read Register:
+VERBOSE: sent command: $RC,0x00000020*77
+VERBOSE: received command: $RR,0x00000020,0x00090001*0A
+
+INFO: Read Register:
+VERBOSE: sent command: $RC,0x00000024*73
+VERBOSE: received command: $RR,0x00000024,0xB0010000*75
+
+INFO: Read Register:
+VERBOSE: sent command: $RC,0x00000028*7f
+VERBOSE: received command: $RR,0x00000028,0xB001FFFF*79
+
+INFO: Read Register:
+VERBOSE: sent command: $RC,0x0000002c*24
+VERBOSE: received command: $RR,0x0000002C,0x00000000*71
+
+INFO: Read Register:
+VERBOSE: sent command: $RC,0x00000030*76
+VERBOSE: received command: $RR,0x00000030,0x00160001*05
+
+INFO: Read Register:
+VERBOSE: sent command: $RC,0x00000034*72
+VERBOSE: received command: $RR,0x00000034,0xB0020000*77
+
+INFO: Read Register:
+VERBOSE: sent command: $RC,0x00000038*7e
+VERBOSE: received command: $RR,0x00000038,0xB002FFFF*7B
+
+INFO: Read Register:
+VERBOSE: sent command: $RC,0x0000003c*25
+VERBOSE: received command: $RR,0x0000003C,0x00000000*70
+
+INFO: Read Register:
+VERBOSE: sent command: $RC,0x00000040*71
+VERBOSE: received command: $RR,0x00000040,0x00070001*02
+
+INFO: Read Register:
+VERBOSE: sent command: $RC,0x00000044*75
+VERBOSE: received command: $RR,0x00000044,0xB0030000*71
+
+INFO: Read Register:
+VERBOSE: sent command: $RC,0x00000048*79
+VERBOSE: received command: $RR,0x00000048,0xB003FFFF*7D
+
+INFO: Read Register:
+VERBOSE: sent command: $RC,0x0000004c*22
+VERBOSE: received command: $RR,0x0000004C,0x00000000*77
+
+INFO: Read Register:
+VERBOSE: sent command: $RC,0x00000050*70
+VERBOSE: received command: $RR,0x00000050,0x000F0001*72
+
+INFO: Read Register:
+VERBOSE: sent command: $RC,0x00000054*74
+VERBOSE: received command: $RR,0x00000054,0xB0040000*77
+
+INFO: Read Register:
+VERBOSE: sent command: $RC,0x00000058*78
+VERBOSE: received command: $RR,0x00000058,0xB004FFFF*7B
+
+INFO: Read Register:
+VERBOSE: sent command: $RC,0x0000005c*23
+VERBOSE: received command: $RR,0x0000005C,0x00000000*76
+
+INFO: Read Register:
+VERBOSE: sent command: $RC,0x00000060*73
+VERBOSE: received command: $RR,0x00000060,0x00000000*06
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Read Register:
+VERBOSE: sent command: $RC,0xb0020000*25
+VERBOSE: received command: $RR,0xB0020000,0x00000000*70
+
+INFO: Read Register:
+VERBOSE: sent command: $RC,0xb002008c*7e
+VERBOSE: received command: $RR,0xB002008C,0x00000000*0B
+
+INFO: Read Register:
+VERBOSE: sent command: $RC,0xb0020090*2c
+VERBOSE: received command: $RR,0xB0020090,0x00000000*79
+
+INFO: Read Register:
+VERBOSE: sent command: $RC,0xb0020088*25
+VERBOSE: received command: $RR,0xB0020088,0x00000000*70
+
+INFO: Read Register:
+VERBOSE: sent command: $RC,0xb0020084*29
+VERBOSE: received command: $RR,0xB0020084,0x00000000*7C
+
+INFO: Read Register:
+VERBOSE: sent command: $RC,0xb00200a4*70
+VERBOSE: received command: $RR,0xB00200A4,0x4C4F434C*70
+
+INFO: Write Register:
+VERBOSE: sent command: $WC,0xb0020100,0x40000000*41
+VERBOSE: received command: $WR,0xB0020100*10
+
+INFO: Read Register:
+VERBOSE: sent command: $RC,0xb0020100*24
+VERBOSE: received command: $RR,0xB0020100,0x80000000*79
+
+INFO: Read Register:
+VERBOSE: sent command: $RC,0xb0020104*20
+VERBOSE: received command: $RR,0xB0020104,0x00000000*75
+
+INFO: Read Register:
+VERBOSE: sent command: $RC,0xb0020014*20
+VERBOSE: received command: $RR,0xB0020014,0x00000000*75
+
+INFO: Read Register:
+VERBOSE: sent command: $RC,0xb0020018*2c
+VERBOSE: received command: $RR,0xB0020018,0x00000000*79
+
+INFO: Read Register:
+VERBOSE: sent command: $RC,0xb002001c*77
+VERBOSE: received command: $RR,0xB002001C,0x00000000*02
+
+INFO: Read Register:
+VERBOSE: sent command: $RC,0xb0020020*27
+VERBOSE: received command: $RR,0xB0020020,0x00000000*72
+
+INFO: Read Register:
+VERBOSE: sent command: $RC,0xb0020010*24
+VERBOSE: received command: $RR,0xB0020010,0x00000000*71
+
+INFO: Read Register:
+VERBOSE: sent command: $RC,0xb002000c*76
+VERBOSE: received command: $RR,0xB002000C,0x01020001*01
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Closing Port:
+INFO: closing port successful
+
+INFO: Opening Port:
+INFO: opening port: ttyUSB0 successful
+VERBOSE: no response received
+VERBOSE: received command: $ER,0x00000001*72
+INFO: baudrate detected at: 1000000
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connected correctly to target on: ttyUSB0
+
+INFO: Read Register:
+VERBOSE: sent command: $RC,0x00000000*75
+VERBOSE: received command: $RR,0x00000000,0x00010001*00
+
+INFO: Read Register:
+VERBOSE: sent command: $RC,0x00000004*71
+VERBOSE: received command: $RR,0x00000004,0x00000000*04
+
+INFO: Read Register:
+VERBOSE: sent command: $RC,0x00000008*7d
+VERBOSE: received command: $RR,0x00000008,0x0FFFFFFF*7E
+
+INFO: Read Register:
+VERBOSE: sent command: $RC,0x0000000c*26
+VERBOSE: received command: $RR,0x0000000C,0x00000000*73
+
+INFO: Read Register:
+VERBOSE: sent command: $RC,0x00000010*74
+VERBOSE: received command: $RR,0x00000010,0x00020001*02
+
+INFO: Read Register:
+VERBOSE: sent command: $RC,0x00000014*70
+VERBOSE: received command: $RR,0x00000014,0xB0000000*77
+
+INFO: Read Register:
+VERBOSE: sent command: $RC,0x00000018*7c
+VERBOSE: received command: $RR,0x00000018,0xB000FFFF*7B
+
+INFO: Read Register:
+VERBOSE: sent command: $RC,0x0000001c*27
+VERBOSE: received command: $RR,0x0000001C,0x00000000*72
+
+INFO: Read Register:
+VERBOSE: sent command: $RC,0x00000020*77
+VERBOSE: received command: $RR,0x00000020,0x00090001*0A
+
+INFO: Read Register:
+VERBOSE: sent command: $RC,0x00000024*73
+VERBOSE: received command: $RR,0x00000024,0xB0010000*75
+
+INFO: Read Register:
+VERBOSE: sent command: $RC,0x00000028*7f
+VERBOSE: received command: $RR,0x00000028,0xB001FFFF*79
+
+INFO: Read Register:
+VERBOSE: sent command: $RC,0x0000002c*24
+VERBOSE: received command: $RR,0x0000002C,0x00000000*71
+
+INFO: Read Register:
+VERBOSE: sent command: $RC,0x00000030*76
+VERBOSE: received command: $RR,0x00000030,0x00160001*05
+
+INFO: Read Register:
+VERBOSE: sent command: $RC,0x00000034*72
+VERBOSE: received command: $RR,0x00000034,0xB0020000*77
+
+INFO: Read Register:
+VERBOSE: sent command: $RC,0x00000038*7e
+VERBOSE: received command: $RR,0x00000038,0xB002FFFF*7B
+
+INFO: Read Register:
+VERBOSE: sent command: $RC,0x0000003c*25
+VERBOSE: received command: $RR,0x0000003C,0x00000000*70
+
+INFO: Read Register:
+VERBOSE: sent command: $RC,0x00000040*71
+VERBOSE: received command: $RR,0x00000040,0x00070001*02
+
+INFO: Read Register:
+VERBOSE: sent command: $RC,0x00000044*75
+VERBOSE: received command: $RR,0x00000044,0xB0030000*71
+
+INFO: Read Register:
+VERBOSE: sent command: $RC,0x00000048*79
+VERBOSE: received command: $RR,0x00000048,0xB003FFFF*7D
+
+INFO: Read Register:
+VERBOSE: sent command: $RC,0x0000004c*22
+VERBOSE: received command: $RR,0x0000004C,0x00000000*77
+
+INFO: Read Register:
+VERBOSE: sent command: $RC,0x00000050*70
+VERBOSE: received command: $RR,0x00000050,0x000F0001*72
+
+INFO: Read Register:
+VERBOSE: sent command: $RC,0x00000054*74
+VERBOSE: received command: $RR,0x00000054,0xB0040000*77
+
+INFO: Read Register:
+VERBOSE: sent command: $RC,0x00000058*78
+VERBOSE: received command: $RR,0x00000058,0xB004FFFF*7B
+
+INFO: Read Register:
+VERBOSE: sent command: $RC,0x0000005c*23
+VERBOSE: received command: $RR,0x0000005C,0x00000000*76
+
+INFO: Read Register:
+VERBOSE: sent command: $RC,0x00000060*73
+VERBOSE: received command: $RR,0x00000060,0x00000000*06
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Read Register:
+VERBOSE: sent command: $RC,0xb0020000*25
+VERBOSE: received command: $RR,0xB0020000,0x00000000*70
+
+INFO: Read Register:
+VERBOSE: sent command: $RC,0xb002008c*7e
+VERBOSE: received command: $RR,0xB002008C,0x00000000*0B
+
+INFO: Read Register:
+VERBOSE: sent command: $RC,0xb0020090*2c
+VERBOSE: received command: $RR,0xB0020090,0x00000000*79
+
+INFO: Read Register:
+VERBOSE: sent command: $RC,0xb0020088*25
+VERBOSE: received command: $RR,0xB0020088,0x00000000*70
+
+INFO: Read Register:
+VERBOSE: sent command: $RC,0xb0020084*29
+VERBOSE: received command: $RR,0xB0020084,0x00000000*7C
+
+INFO: Read Register:
+VERBOSE: sent command: $RC,0xb00200a4*70
+VERBOSE: received command: $RR,0xB00200A4,0x4C4F434C*70
+
+INFO: Write Register:
+VERBOSE: sent command: $WC,0xb0020100,0x40000000*41
+VERBOSE: received command: $WR,0xB0020100*10
+
+INFO: Read Register:
+VERBOSE: sent command: $RC,0xb0020100*24
+VERBOSE: received command: $RR,0xB0020100,0x80000000*79
+
+INFO: Read Register:
+VERBOSE: sent command: $RC,0xb0020104*20
+VERBOSE: received command: $RR,0xB0020104,0x00000000*75
+
+INFO: Read Register:
+VERBOSE: sent command: $RC,0xb0020014*20
+VERBOSE: received command: $RR,0xB0020014,0x00000000*75
+
+INFO: Read Register:
+VERBOSE: sent command: $RC,0xb0020018*2c
+VERBOSE: received command: $RR,0xB0020018,0x00000000*79
+
+INFO: Read Register:
+VERBOSE: sent command: $RC,0xb002001c*77
+VERBOSE: received command: $RR,0xB002001C,0x00000000*02
+
+INFO: Read Register:
+VERBOSE: sent command: $RC,0xb0020020*27
+VERBOSE: received command: $RR,0xB0020020,0x00000000*72
+
+INFO: Read Register:
+VERBOSE: sent command: $RC,0xb0020010*24
+VERBOSE: received command: $RR,0xB0020010,0x00000000*71
+
+INFO: Read Register:
+VERBOSE: sent command: $RC,0xb002000c*76
+VERBOSE: received command: $RR,0xB002000C,0x01020001*01
+
+INFO: Checking Port:
+VERBOSE: sent command: $CC*00
+VERBOSE: received command: $CR*11
+INFO: connection io
+
+INFO: Closing Port:
+INFO: closing port successful
+
+ERROR: no save log file specified
