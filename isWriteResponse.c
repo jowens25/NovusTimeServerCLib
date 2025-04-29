@@ -2,12 +2,12 @@
 
 #include "ntslib.h"
 //
-bool isWriteResponse(char *message)
+int isWriteResponse(char *message)
 {
     if (strncmp("$WR", message, 3) == 0)
     {
-        return true;
+        return 1;
     }
 
-    return false;
+    return 0;
 }

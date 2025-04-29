@@ -1,14 +1,22 @@
 #ifndef NTSLIB_H
 
 #define NTSLIB_H
+
+#ifdef __linux__
+#include <fcntl.h>   // linux
+#include <unistd.h>  // linux
+#include <termios.h> // linux
+#endif
+
+#ifdef MCU
+
+#endif
+
+// common
 #include <stdio.h>
 #include <stdlib.h>
-#include <fcntl.h>
-#include <unistd.h>
 #include <string.h>
 #include <stdint.h>
-#include <stdbool.h>
-#include <termios.h>
 
 extern struct termios tty;
 
@@ -20,10 +28,10 @@ int serWrite(int ser, char data[], size_t dataLength);
 
 unsigned char calculateChecksum(char *data);
 
-bool isWriteResponse(char *message);
-bool isReadResponse(char *message);
-bool isErrorResponse(char *message);
-bool isChecksumCorrect(char *message);
+int isWriteResponse(char *message);
+int isReadResponse(char *message);
+int isErrorResponse(char *message);
+int isChecksumCorrect(char *message);
 
 int setupTermios(int);
 

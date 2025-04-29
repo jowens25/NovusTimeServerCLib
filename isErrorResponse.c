@@ -1,12 +1,12 @@
 
 #include "ntslib.h"
 //
-bool isErrorResponse(char *message)
+int isErrorResponse(char *message)
 {
     if (strncmp("$ER", message, 3) == 0)
     {
-        return true;
+        return 1;
     }
 
-    return false;
+    return 0;
 }

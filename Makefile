@@ -4,6 +4,14 @@ SOURCES = $(wildcard *.c)
 OBJECTS = $(SOURCES:.c=.o)
 TARGET = main
 
+PLATFORM ?= linux
+
+ifeq ($(PLATFORM),linux)
+CFLAGS += -DLINUX_PLATFORM
+else
+CFLAGS += -DMCU_PLATFORM
+endif
+
 $(TARGET): $(OBJECTS)
 	$(CC) $(CFLAGS) -o $@ $^
 

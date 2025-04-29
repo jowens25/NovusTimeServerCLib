@@ -4,7 +4,9 @@
         "cstdint": "c",
         "ntslib.h": "c",
         "stdio.h": "c",
-        "termios.h": "c"
+        "termios.h": "c",
+        "fcntl.h": "c",
+        "stdint.h": "c"
     },
     "makefile.configureOnOpen": false
 }

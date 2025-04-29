@@ -1,7 +1,7 @@
 
 #include "ntslib.h"
 //
-bool isChecksumCorrect(char *message)
+int isChecksumCorrect(char *message)
 {
     // fprintf("string 2: %s", *token + strlen(token) + 1);
     // printf("message: %s\n", message);

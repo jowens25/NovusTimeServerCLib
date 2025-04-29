@@ -1,11 +1,4 @@
-#include <stdio.h>
-#include <stdlib.h>
-#include <fcntl.h>
-#include <unistd.h>
-#include <termios.h>
-#include <string.h>
-#include <stdint.h>
-#include <stdbool.h>
+
 #include "ntslib.h"
 
 int writeRegister(int32_t addr, int32_t *data)
